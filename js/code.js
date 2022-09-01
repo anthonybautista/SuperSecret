@@ -28,7 +28,7 @@ function getLeaderboard() {
 
 $(function () {
     getLeaderboard();
-    $("i").on('click', function () {
+    $("#refresh-icon").on('click', function () {
         getLeaderboard();
     });
 })
